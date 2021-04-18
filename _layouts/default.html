@@ -5,7 +5,7 @@
 		{% comment %} (page title) | (site title) {% endcomment %}
 		<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
 
-		<link rel = "stylesheet" type = "text/css" href = "/assets/css/style.css" />
+                <link rel = "stylesheet" type = "text/css" href = "{{ /assets/css/style.css | absolute_url }}" />
 	</head>
 
 	<body>
