@@ -10,7 +10,7 @@ h1
 	text-align: center;
 	border-style: none none double none;
 	border-color: black;
-	border-width: 1px;
+	border-width: 3px;
 	width: 100%;
 }
 
@@ -28,8 +28,8 @@ h2
 h3
 {
 	text-align: center;
-	border-style: none none dashed none;
-	border-color: black;
+	border-style: none none solid none;
+	border-color: lightgray;
 	border-width: 1px;
 	width: 100%;
 }
