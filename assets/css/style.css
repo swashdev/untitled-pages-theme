@@ -82,6 +82,17 @@ section
 
 /* maybe use the margins for some sidebars in the future */
 
+/* styling for a blockquote */
+blockquote
+{
+	background-color: #eee;
+	width: auto;
+	padding: 0.25em 1em;
+	margin: 1em  1em;
+	border-style: none none none solid;
+	border-color: #666;
+}
+
 /* syntax highlighting */
 
 .highlight table td
