@@ -3,15 +3,15 @@
 
 	<head>
 		{% comment %} (page title) | (site title) {% endcomment %}
-		<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
+		<title>{% if page.title %}{{ page.title }}{% elsif site.description %}{{ site.description }}{% endif %}{% if site.title %}{% if page.title or site.description %} | {% endif %}{{ site.title }}{% endif %}</title>
 
 		<link rel = "stylesheet" type = "text/css" href = "/assets/css/style.css" />
 	</head>
 
 	<body>
-                <!-- TODO
+		{% comment %} TODO
 		{% include header.html %}
-                -->
+		{% endcomment %}
 
 		<section>
 		{{ content }}
