@@ -109,10 +109,9 @@ img.float-right
 /* styling for a blockquote */
 blockquote
 {
-	background-color: #eee;
-	width: auto;
-	padding: 0.25em 1em;
-	margin: 1em 1em;
+	font-style: italic;
+	padding: 0 1em;
+	margin: 1em 0;
 	border-style: none none none solid;
 	border-color: #666;
 }
