@@ -82,15 +82,47 @@ section
 
 /* maybe use the margins for some sidebars in the future */
 
+/* large images will resize to fit the body; smaller images will be centered */
+img
+{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+/* for portfolio pages, formatting for screenshots/preview images which can
+ * alternate sides of the screen alongside project summaries
+ */
+img.float-left
+{
+	max-width: 25%;
+	margin: 0.25em;
+	float: left;
+}
+img.float-right
+{
+	max-width: 25%;
+	margin: 0.25em;
+	float: right;
+}
+
 /* styling for a blockquote */
 blockquote
 {
 	background-color: #eee;
 	width: auto;
 	padding: 0.25em 1em;
-	margin: 1em  1em;
+	margin: 1em 1em;
 	border-style: none none none solid;
 	border-color: #666;
+}
+
+/* code blocks should not wrap; they should horizontally scroll if they are
+ * too long. */
+code
+{
+	display: block;
+	overflow: auto;
 }
 
 /* syntax highlighting */
