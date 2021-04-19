@@ -116,12 +116,21 @@ blockquote
 	border-color: #666;
 }
 
+/* in-line code references */
+code
+{
+	background-color: #eee;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+
 /* code blocks should not wrap; they should horizontally scroll if they are
  * too long. */
-code
+.highlight code
 {
 	display: block;
 	overflow: auto;
+	padding: 1em;
 }
 
 /* syntax highlighting */
@@ -397,8 +406,4 @@ code
 .highlight .w
 {
 	color: #bbbbbb;
-}
-.highlight
-{
-	background-color: #f8f8f8;
 }
