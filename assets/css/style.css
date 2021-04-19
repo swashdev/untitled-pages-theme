@@ -45,7 +45,7 @@ header
 {
 	display: block;
 	width: 100%;
-	margin: 20px 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -53,7 +53,7 @@ header .column
 {
 	float: left;
 	width: 50%;
-	margin: 0;
+	margin: 0 0 20px;
 	padding: 0;
 	height: 2.25em;
 	/* put a line under the header */
@@ -83,6 +83,8 @@ header strong
 {
 	font-size: 2em;
 	text-align: right;
+	width: 100%;
+	display: block;
 }
 
 /* the category link inverts if hovered or if it is the current category */
@@ -96,7 +98,7 @@ header a.current, header a:hover
 section
 {
 	width: 60%;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 /* maybe use the margins for some sidebars in the future */
