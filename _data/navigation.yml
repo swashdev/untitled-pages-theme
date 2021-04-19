@@ -1,0 +1,4 @@
+ - name: Home
+   link: /
+ - name: Another Page
+   link: /another-page.html

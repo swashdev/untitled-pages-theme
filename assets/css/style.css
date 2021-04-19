@@ -46,11 +46,20 @@ header
 	display: block;
 	width: 100%;
 	margin: 20px 0;
+	padding: 0;
+}
+
+header .column
+{
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	height: 2.25em;
 	/* put a line under the header */
 	border-style: solid;
 	border-color: black;
 	border-width: 0 0 1px 0;
-	padding: 0;
 }
 
 /* the category links in the page header */
@@ -59,11 +68,21 @@ header a
 	color: black;
 	background-color: white;
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
 	vertical-align: center;
-	display: block;
-	padding: 10px 15px;
-	float: left;
+	padding: 0.5em;
+	display: inline-block;
+	margin: 0;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+/* the site title in the page header */
+header strong
+{
+	font-size: 2em;
+	text-align: right;
 }
 
 /* the category link inverts if hovered or if it is the current category */
