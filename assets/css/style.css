@@ -104,18 +104,25 @@ img
 	display: block;
 }
 
+.post-preview
+{
+	text-align: justify;
+	text-justify: inter-word;
+	float: left;
+}
+
 /* for portfolio pages, formatting for screenshots/preview images which can
  * alternate sides of the screen alongside project summaries
  */
 img.float-left
 {
-	max-width: 25%;
+	max-width: 20%;
 	margin: 0.25em;
 	float: left;
 }
 img.float-right
 {
-	max-width: 25%;
+	max-width: 20%;
 	margin: 0.25em;
 	float: right;
 }
