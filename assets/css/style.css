@@ -40,26 +40,21 @@ h4, h5, h6
 	text-align: center;
 }
 
+/* the site title */
+h1#top
+{
+	font-size: 2em;
+	border-style: none;
+}
+
 /* the page header */
 header
 {
-	display: block;
+	display: table;
+	table-layout: fixed;
 	width: 100%;
-	margin: 0;
+	margin-bottom: 20px;
 	padding: 0;
-}
-
-header .column
-{
-	float: left;
-	width: 50%;
-	margin: 0 0 20px;
-	padding: 0;
-	height: 2.25em;
-	/* put a line under the header */
-	border-style: solid;
-	border-color: black;
-	border-width: 0 0 1px 0;
 }
 
 /* the category links in the page header */
@@ -68,23 +63,13 @@ header a
 	color: black;
 	background-color: white;
 	text-decoration: none;
-	text-align: left;
-	vertical-align: center;
+	text-align: center;
 	padding: 0.5em;
-	display: inline-block;
+	display: table-cell;
 	margin: 0;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
-}
-
-/* the site title in the page header */
-header strong
-{
-	font-size: 2em;
-	text-align: right;
-	width: 100%;
-	display: block;
 }
 
 /* the category link inverts if hovered or if it is the current category */

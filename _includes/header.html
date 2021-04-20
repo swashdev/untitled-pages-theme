@@ -1,5 +1,4 @@
 <header>
-	
-	<div class = "column">{% for item in site.data.navigation %}<a href = "{{ item.link }}" {% if page.url == item.link %}class = "current"{% endif %}>{{ item.name }}</a>{% endfor %}</div><div class = "column"><strong>{{ site.title }}</strong></div>
+	{% for item in site.data.navigation %}<a href = "{{ item.link }}" {% if page.url == item.link %}class = "current"{% endif %}>{{ item.name }}</a>{% endfor %}
 
 </header>
