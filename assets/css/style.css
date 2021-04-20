@@ -41,10 +41,18 @@ h4, h5, h6
 }
 
 /* the site title */
-h1#top
+h1.title
 {
 	font-size: 2em;
 	border-style: none;
+	margin: 1em auto 0;
+}
+
+.subtitle
+{
+	text-align: center;
+	font-style: italic;
+	margin: 0 auto;
 }
 
 /* the page header */
@@ -53,7 +61,7 @@ header
 	display: table;
 	table-layout: fixed;
 	width: 100%;
-	margin-bottom: 20px;
+	margin: 20px 0;
 	padding: 0;
 }
 
