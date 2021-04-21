@@ -2,6 +2,7 @@ body
 {
 	background-color: white;
 	color: black;
+	font-family: sans-serif;
 }
 
 /* top-level headers are centered & have a double underline */
@@ -106,8 +107,6 @@ img
 
 .post-preview
 {
-	text-align: justify;
-	text-justify: inter-word;
 	float: left;
 }
 
